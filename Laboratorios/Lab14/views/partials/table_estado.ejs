@@ -1,0 +1,29 @@
+<div class="container">
+    <h3>Accidentes</h3>
+      <table class="responsive-table center" style="width:100%" >
+        <thead>
+          <tr> 
+            <th>Lugar</th>
+            <th>Tipo</th>
+            <th>Fecha</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          <%  for(let accidente of accidentes){  %>
+          
+          <tr>
+            <td><%= accidente.nombre_lugar %></td>
+            <td><%= accidente.tipo_incidente %></td>
+            <td><%= accidente.fecha %></td>
+          </tr>
+          <% } %>
+
+      
+          
+        </tbody>
+    </table> 
+    
+      
+    
+    </div>

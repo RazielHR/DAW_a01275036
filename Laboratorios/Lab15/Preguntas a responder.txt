@@ -1,0 +1,4 @@
+¿Qué beneficios encuentras en el estilo MVC?
+Un codigo en forma de lasagna, en el sentido de que es mas ordenado
+¿Encuentras alguna desventaja en el estilo arquitectónico MVC?
+Ninguna
